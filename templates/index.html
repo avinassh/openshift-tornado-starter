@@ -2,10 +2,10 @@
 <html>
 <head>
 	<title>Simple Openshift Tornado App</title>
-	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="{{ static_url("css/style.css") }}">
 </head>
 <body>
-	<img src="/static/images/tornado.png">
+	<img src="{{ static_url("images/tornado.png") }}">
 	<p>This is a simple example to show how Tornado can be deployed on Openshift easily.</p>
 	<br />
 	<p>Fork the repo from <a href="https://github.com/avinassh/openshift-tornado-starter">here!</a></p>
